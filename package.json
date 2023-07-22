@@ -1,0 +1,17 @@
+{
+  "name": "microservice-http-request",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rabbit.mq.handlerM1.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/rabbit.mq.handlerM1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Usman Kupalov",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "pino": "^8.14.1"
+  }
+}
